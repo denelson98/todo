@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(63, 102, 200), rgb(133, 187, 235));
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.list {
+    background-color: whitesmoke;
+    border: 2px solid rgb(200, 200, 200);
+}
