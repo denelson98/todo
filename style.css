@@ -17,6 +17,19 @@ body {
 #container {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+#header {
+    display: grid;
+    grid-area: 1 / 1 / 2 / 4;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-area: 2 / 1 / 4 / 2;
+    text-align: center;
 }
 
 .list {
